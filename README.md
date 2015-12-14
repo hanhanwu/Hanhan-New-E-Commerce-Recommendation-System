@@ -17,12 +17,12 @@ Install Guidance: https://www.youtube.com/watch?v=czs_QnExBQA
 Juno Download url:https://eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr2
 
 3. Install Python BeautifulSoup through command line:
-	a. Download beautifulsoup4-4.4.1.tar.gz I provided,and unzip the file
+	a. Download beautifulsoup4-4.4.1.tar.gz from http://www.crummy.com/software/BeautifulSoup/,and unzip the file,and unzip the file
 	b. Through command line, cd to the unzipped folder
 	c. Through command line, type “sudo python setup.py install”
 
 4. Install python Levenshtein
-	a. Download pythin-Levenshtein-0.12.0.tar.gz I provided, unzip the file
+	a. Download pythin-Levenshtein-0.12.0.tar.gz from https://pypi.python.org/pypi/python-Levenshtein/0.12.0, unzip the file
 	b. Through command line, cd to the unzipped folder
 	c. Through command line, type “sudo python setup.py install”
 
