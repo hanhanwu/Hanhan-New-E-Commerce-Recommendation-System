@@ -8,7 +8,8 @@ recommendations which is based on daily News report Text mining.
 matched product in the database and return the product name as well as the predicted price, the predicted
 price should based on historical price and current price.
 
-********************************************** Part 2: How to Run the Code ********************************************
+********************************************** Part 2: How to Run the Code ***********************************************
+
 1. Do all the installations on a Mac
 
 2. Download Eclipse Juno and install PyDev, because Eclipse Juno will update the following python installations automatically. But if your current Eclipse can install PyDev as the Install Guidance shows, please ignore the Juno Download url below, and just install PyDev on Eclipse.
@@ -41,7 +42,8 @@ I may not in Canada between Dec. 18th to Dec. 21
 
 7. When you are going to run the code, just open SellersRecommendation.py, and run the code. The output will change based on daily news data or user’s input. There is only one variable you can change to see different results, user_input in line 96, change this variable, you should see different changes. Other things, will parse the data from different resources and provide daily proactive recommendations.
 
-********************************************** Part 2: Source Code Description ********************************************
+********************************************** Part 2: Source Code Description *******************************************
+
 1. SellersRecommendations.py
 	By running this file you will get the daily products recommendations. The daily output has 2 parts: Proactive recommendations and reactive recommendations.
 a. Reactive Recommendations: By changing the variable user_input (line 96) with different product names you can come up with, it will search the MySql database and find the most matched product with its price. 
@@ -62,8 +64,9 @@ My Email: hanhanw@sfu.ca
 5. MyClassifiers.py
 	In this file, I have implemented Fisher Classifier in order to do classification analysis on daily news, so that based on the themes on the news, I classify them into different categories so that I can match to the categories of products. The recommended categories are sorted on popularity descending order.
 
-********************************************** Part 3: Sample Output ********************************************
-Below is a sample output for Dec. 13th 2015: (Above “******” are proactive recommendations, below that are reactive recommendations)
+********************************************** Part 3: Sample Output *****************************************************
+
+Below is a sample output for Dec. 13th 2015: (The first part are proactive recommendations, the second part are reactive recommendations)
 
 Proactive Daily Recommendations: 
 daily recommendations: 
@@ -132,5 +135,3 @@ Product Price:  $12.99
 **********************************************************
 Product Name Stark Electric Small Mini Portable Compact Washer Washing Machine (45L Washer)
 Predicted Price $69.95
-
-
