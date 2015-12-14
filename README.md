@@ -46,10 +46,17 @@ I may not in Canada between Dec. 18th to Dec. 21
 
 1. SellersRecommendations.py
 	By running this file you will get the daily products recommendations. The daily output has 2 parts: Proactive recommendations and reactive recommendations.
+
 a. Reactive Recommendations: By changing the variable user_input (line 96) with different product names you can come up with, it will search the MySql database and find the most matched product with its price. 
+
 b. Proactive Recommendations: This part will parse the daily Business News from Google Business News, CNN Business news and try to figure out the themes for each news, and predict/recommend the potential products based on the daily news themes.
+
+c. A function "get_patterns_incase" in this file (line 16) will be used only when the News report removes lots of data during Christmas time (they are removing data..). If that happens, feel free to contact with me, I can send a new SellersRecommendations.py. Currently I am not adding those lines of code in case to make the code confusing.
+
 Note: Before you are going to run the code, please call/email me so that I can start MySql instance server on my machine.
+
 My Phone: 778-681-7739
+
 My Email: hanhanw@sfu.ca
 
 2. RSSParser.py
@@ -66,72 +73,134 @@ My Email: hanhanw@sfu.ca
 
 ********************************************** Part 3: Sample Output *****************************************************
 
-Below is a sample output for Dec. 13th 2015: (The first part are proactive recommendations, the second part are reactive recommendations)
-
 Proactive Daily Recommendations: 
+
 daily recommendations: 
+
 Product Name:  Cricut 2001974 Adhesive Cutting Mat, Standard Grip, 12 x 12-Inch, Pack of 2
+
 Product Price:  $5.99
+
 Product Name:  White Christmas (Diamond Anniversary Edition)
+
 Product Price:  $8.00
+
 Product Name:  Casio Men's AQ-S810W-1AV Solar Sport Combination Watch
+
 Product Price:  $18.75
+
 Product Name:  TMH 20'' Dual Row High Power 126w Cree Xb-d SMD LED Work Light Bar 13000 Lumens
+
 Product Price:  $36.88
+
 Product Name:  Texas Roadhouse Gift Card $25
+
 Product Price:  $25.00
+
 Product Name:  National Geographic Little Kids
+
 Product Price:  $15.00
+
 Product Name:  TIME
+
 Product Price:  $20.00
+
 Product Name:  Outlander: Season One - Volume Two
+
 Product Price:  $18.49
+
 Product Name:  Ant-Man 2-Disc 3D BD Combo Pack [Blu-ray]
+
 Product Price:  $21.00
+
 Product Name:  Sephora Gift Card $25
+
 Product Price:  $25.00
+
 Product Name:  Elf [Blu-ray]
+
 Product Price:  $7.99
+
 Product Name:  Applebee's Gift Card $25
+
 Product Price:  $18.75
+
 Product Name:  National Lampoon's Christmas Vacation [Blu-ray]
+
 Product Price:  $7.99
+
 Product Name:  National Geographic Traveler
+
 Product Price:  $10.00
+
 Product Name:  GoSports Slammo Game Set (Includes 3 Balls, Carrying Case and Rules)
+
 Product Price:  $37.25
+
 Product Name:  Easytle 2 ml (5/8 dram) Amber Glass Essential Oil Bottle with Orifice Reducer and cap- 12 pack
+
 Product Price:  $1.99
+
 Product Name:  Marvel's Avengers: Age of Ultron
+
 Product Price:  $14.96
+
 Product Name:  The Little Mermaid (Diamond Edition) [DVD +Digital Copy]
+
 Product Price:  $14.96
+
 Product Name:  SE CC4580 Military Lensatic Sighting Compass with Pouch
+
 Product Price:  $2.00
+
 Product Name:  The Collected Works of Hayao Miyazaki (Amazon Exclusive) [Blu-ray]
+
 Product Price:  $399.98
+
 Product Name:  Allen Sports Deluxe 3-Bike Hitch Mount Rack with 1.25/2-Inch Receiver
+
 Product Price:  $39.36
+
 Product Name:  [Lad Weather] German Sensor Digital Compass Altimeter Barometer Chronograph Alarm Weather Forecast Outdoor Wrist Sports Watches (Climbing/ Hiking/ Running/ Walking/ Camping) Men's
+
 Product Price:  $45.00
+
 Product Name:  The Polar Express [Blu-ray]
+
 Product Price:  $7.99
+
 Product Name:  Lysol Disinfecting Wipes Value Pack, Lemon and Lime Blossom, 240 Count
+
 Product Price:  $9.97
+
 Product Name:  Ted 2
+
 Product Price:  $17.99
+
 Product Name:  Humans of New York: Stories
+
 Product Price:  $11.11
+
 Product Name:  GameStop Gift Card $25
+
 Product Price:  $25.00
+
 Product Name:  Singer Titanium Universal Regular Point Machine Needles for Woven Fabric, Assorted Sizes, 10-Pack
+
 Product Price:  $5.63
+
 Product Name:  Amazon.com Gift Card with Greeting Card - $25 (Fitting Christmas)
+
 Product Price:  $25.00
+
 Product Name:  Ant-Man (1-Disc DVD)
+
 Product Price:  $14.99
+
 Product Name:  Thing Explainer: Complicated Stuff in Simple Words
+
 Product Price:  $12.99
 **********************************************************
 Product Name Stark Electric Small Mini Portable Compact Washer Washing Machine (45L Washer)
+
 Predicted Price $69.95
