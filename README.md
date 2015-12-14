@@ -34,8 +34,11 @@ Juno Download url:https://eclipse.org/downloads/packages/eclipse-ide-java-ee-dev
 	pip install MySQL-python
 
 Note: The MySql instance server is on my machine, when you are going to run the code, my machine has to be on. Therefore, please email/call me to let me know the time, so that I will turn on my machine
+
 My Phone: 778-681-7739
+
 My email: hanhanw@sfu.ca
+
 I may not in Canada between Dec. 18th to Dec. 21
 
 6. Open Eclipse PyDev, create a new Python project and put the 5 files under this project. These 5 files are in the source code folder.
