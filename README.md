@@ -8,7 +8,7 @@ recommendations which is based on daily News report Text mining.
 matched product in the database and return the product name as well as the predicted price, the predicted
 price should based on historical price and current price.
 
-********************************************** Part 2: How to Run the Code ***********************************************
+********************************************** Part 1: How to Run the Code ***********************************************
 
 1. Do all the installations on a Mac
 
