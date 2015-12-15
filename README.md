@@ -1,12 +1,25 @@
 # New-E-Commerce-Recommendation-System
-Using daily News text mining technique and classification to recommend e-commerce products in a new way!
+I designed and implemented an e-commerce Recommendation System which provides product recommendations in a new way: using daily News text mining and classification techniques
 
-This project aims at proving 2 types of product recommendations to e-commerce sellers.
+The recommendation system provides 2 types of product recommendations:
+
 • Proactive Recommendation — Users no need to do anything and they will receive daily product
-recommendations which is based on daily News report Text mining.
-• Reactive Recommendation — Users type whatever a product name, then the system will find the most
-matched product in the database and return the product name as well as the predicted price, the predicted
-price should based on historical price and current price.
+recommendations which is based on daily News report Text mining
+
+• Reactive Recommendation — Users type whatever a product name, then the system will look into the database, using Levenshtein Distance and return the most matched product information
+
+• Implementation Tools: Python, MySql
+
+• Major Implemented algorithms: Fisher Classifier, NMF (Non-negative Matrix Factorization)
+
+
+Why NMF (Non-negative Matrix Factorization):
+
+• NMF is an algorithm used to extract important features, after checking all the Spark MLLib text mining algorithms, k-means clustering, frequent pattern mining for text and could not the results I expected, finally decided to take a risk and try to implement NMF, it works well on Google News, CNN news, but will not work well on small amount data input like New York Times
+
+Why Fisher Classifier:
+
+• When it comes to text mining, I prefer to choose an algorithm tells how likely that each item fits a category, therefore algorithms like Naive Bayesian which returns probabilities will be my first choice. However, Naive Bayesian will calculate the combined probabilities based on multiple all the probabilities of an items’ features, it will work well when the items amount are the same for each category. In my case, Naive Bayesian will reduce accuracy, Fisher Classifier will overcome this shortage by taking natural log with the multiplied result and then multiple -2. 
 
 ********************************************** Part 1: How to Run the Code ***********************************************
 
